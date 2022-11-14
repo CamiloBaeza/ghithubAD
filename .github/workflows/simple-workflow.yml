@@ -10,7 +10,8 @@ on:
 
 jobs: 
   steps:
-    -uses:    
+    -uses: actions/checkoout@v2
+        
       job1:
         name: primero
       job2:
