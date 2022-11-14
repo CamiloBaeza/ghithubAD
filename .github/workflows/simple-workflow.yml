@@ -17,7 +17,7 @@ jobs:
          
         date: 2022-01-23 
       - name: Run a one-line script
-        run: echo date
+        run: date
 
       - name: Run a multi-line script
         run: |
