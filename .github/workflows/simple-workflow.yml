@@ -15,11 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
          
-      - name: Setup node
-        uses: action/setup-node@v3
-        whit: 
-          node-version: 16.13.x
-          cache: npm
-
-      -name: Install
-       run: npm ci    
+  job1:
+    name: primero
+  job2:
+    name: segundo
