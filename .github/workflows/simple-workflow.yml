@@ -37,8 +37,21 @@ jobs:
   job4:
     runs-on: ubuntu-latest
     needs: job2
-    #if: needs.job2.outputs.job2-status == 'true'
     steps:
       - name: Tirate un job 4
         run: echo job 4
-                   
+
+  job5:
+  runs-on: ubuntu-latest
+  needs: job2
+  steps:
+    - name: Tirate un job 5
+      run: echo job 5
+    
+             
+  job6:
+  runs-on: ubuntu-latest
+  needs: job2
+  steps:
+    - name: Tirate un job 6
+      run: echo job 6                  
