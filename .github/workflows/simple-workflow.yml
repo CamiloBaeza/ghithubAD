@@ -8,10 +8,7 @@ on:
 
   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-          
+jobs:     
   job1:
     name: primero
   job2:
