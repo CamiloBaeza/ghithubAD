@@ -20,6 +20,6 @@ jobs:
     needs: job1
 
     steps:
-      - uses: echo de jobs 
+      - name: echo de jobs 
         run: echo corrio el job 1 y el job 2   
 
