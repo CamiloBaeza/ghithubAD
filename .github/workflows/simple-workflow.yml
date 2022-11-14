@@ -14,12 +14,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-  
+      - name: Tirate un echo
+        run: echo job 1
   job2:
     runs-on: ubuntu-latest
     needs: job1
 
     steps:
       - name: echo de jobs 
-        run: echo corrio el job 1 y el job 2   
+        run: echo job 2   
 
