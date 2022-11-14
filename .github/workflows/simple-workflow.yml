@@ -35,6 +35,7 @@ jobs:
 
   job4:
     runs-on: ubuntu-latest
+    environment: job4
     needs: job2
     steps:
       - name: Tirate un job 4
@@ -42,14 +43,15 @@ jobs:
 
   job5:
     runs-on: ubuntu-latest
+    environment: job5
     needs: job2
     steps:
       - name: Tirate un job 5
         run: echo job 5
-    
-             
+               
   job6:
     runs-on: ubuntu-latest
+    environment: job6
     needs: job2
     steps:
       - name: Tirate un job 6
