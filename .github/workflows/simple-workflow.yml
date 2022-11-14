@@ -11,10 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-         
+          
   job1:
     name: primero
   job2:
