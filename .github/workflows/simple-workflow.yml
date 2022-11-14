@@ -8,8 +8,10 @@ on:
 
   workflow_dispatch:
 
-jobs:     
-  job1:
-    name: primero
-  job2:
-    name: segundo
+jobs: 
+  steps:
+    -uses:    
+      job1:
+        name: primero
+      job2:
+        name: segundo
