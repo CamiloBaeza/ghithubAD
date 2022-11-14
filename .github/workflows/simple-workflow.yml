@@ -52,7 +52,7 @@ jobs:
   job6:
     runs-on: ubuntu-latest
     environment: job6
-    needs: job2, job5
+    needs: [job2,job5]
     steps:
       - name: Tirate un job 6
         run: echo job                   
