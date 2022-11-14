@@ -32,11 +32,3 @@ jobs:
     steps:
       - name: Tirate un job 3
         run: echo job 3         
-  else:   
-     job4:
-      runs-on: ubuntu-latest
-      needs: job2
-      
-      steps:
-        - name: Tirate un job 4
-          run: echo job 4 
