@@ -7,6 +7,12 @@ on:
     branches: [ "main" ]
 
   workflow_dispatch:
+  
+[
+  { "name": "apple", "quantity": 1 },
+  { "name": "orange", "quantity": 2 },
+  { "name": "pear", "quantity": 1 }
+]
 
 jobs: 
   job1:
