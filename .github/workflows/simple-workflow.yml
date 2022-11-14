@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
 jobs: 
+  build:
+    runs-on: ubuntu-latest
 
-  job1:
-    name: primero
+    steps:
+      - uses: actions/checkout@v2
 
-  job2:
-    name: segundo
