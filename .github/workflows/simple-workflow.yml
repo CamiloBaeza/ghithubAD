@@ -9,12 +9,9 @@ on:
   workflow_dispatch:
 
 jobs: 
-  steps:
-    -uses: actions/checkoout@v2
 
   job1:
     name: primero
 
-    
   job2:
     name: segundo
